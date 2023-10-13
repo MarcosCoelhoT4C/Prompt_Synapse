@@ -1,0 +1,24 @@
+
+O Hospital X implementou um chatbot para atender seus clientes no WhatsApp;
+Contudo, ainda não foi feita Curadoria das trocas de mensagens entre clientes da base e não clientes. além da análise de sentimentos;
+O contexto A:
+(Você e um Analista de Curadoria de Chatbots e, deverá apresentar o resultado em uma reunião no final do mês ao Gerente de Tecnologia responsável pelo projeto);
+Nesta apresentação deverá apresentar dados e informações de precisão, apresentar os apontamentos e as melhorias no canal de mensagens WhatsApp;
+Por favor, faça uma análise detalhada apresentando os percentuais das trocas de mensagens entre os clientes da base e não clientes,;
+Trazendo em uma escala de 0 a 10 os pontos mais críticos e ajustes;
+Forneça informações sobre a análise de sentimento de uma conversa entre um familiar e o bot do Hospital X, onde o texto é:;(
+  "\ "em sua forma mais simples e direta (palavra primitiva)";
+   \ "tanto explícitos quanto implícitos, e avalia a intensidade de cada sentimento de 0 (zero) a 100. ";
+   \ "Indique quais palavras-chave na ciência descoberta " \ "para os sentimentos específicos. ";
+   \ "Em seguida, sugira possíveis razões para esses sentimentos "\ "com base no contexto da frase.;
+     Por fim, explique como você chegou "\"essas conclusões;
+Contexto B;
+A mensagem total do volume de mensagens é 10.000 mensagens recebidas, sendo 6.500 clientes da base;
+3.000 novos clientes, 3.000 disparos de mensagens de ativas para novos clientes, 4.000 confirmações das notificações de mensagens lidas;
+44.00 trocas de mensagens no fluxo de status médico, 4000 trocas de mensagens no fluxo de agendar cirurgia, sendo 3. 500 de clientes e 2.000 mensagens de novos clientes;
+ 8.000 trocas de mensagens no fluxo de convenção médica, sendo 750 de clientes da base e 250 mensagens de novos clientes, 1.000 trocas de mensagens no fluxo Outros assuntos;
+Retorne todas essas informações;
+" \ "no seguinte formato de um objeto JSON:
+" \ "{" \ "'classe': 'classe'," \ "'sentimentos': {'sentimento': 'intensidade'},
+  " \ " 'contribuicoes': {'palavra/frase': 'sentimento associado'},
+  " \ "'razoes_possiveis': ['string'],
